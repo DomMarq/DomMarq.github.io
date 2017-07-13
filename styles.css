@@ -1,0 +1,63 @@
+body {
+  background: gray;
+  font-family: Helvetica,sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -40px;
+  transition: transform 3s;
+}
+
+.profile-photo:hover {
+  transform:rotateZ(1080deg);
+  transform-origin: 50% 50%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+ol, ul {
+  font-style: italic;
+}
+
+section {
+  background: white;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px darkgray;
+}
+ h2 {
+   margin: 0;
+ }
+
+header {
+  border-bottom: 1px solid black;
+  background: orange;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  background: white;
+  border-bottom: black
+  padding: 40px;
+  padding-top: 120px;
+}
+
+#vitals {
+
+}
+
+#lists {
+
+}
